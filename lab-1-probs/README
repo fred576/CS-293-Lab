@@ -1,0 +1,21 @@
+There are three problems in the lab:
+
+1. 01-binary.cpp
+2. 02-performance.cpp
+3. 03-alloc.cpp
+
+Read problem instructions within the files.
+
+There is a Makefile in this folder. Please read the file.
+You may use make to compile and run your code.
+
+1. $make binary
+
+2. $make o0
+   $make o1
+   $make o2
+   $make o3
+  
+3. $make alloc
+
+This is an ungraded lab. No submission is required!

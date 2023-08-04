@@ -1,0 +1,41 @@
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ g++ 02-performance.cpp 
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ ./a.out
+Average of local array: 665409793
+Average of pre-allocated array: 463012808
+Average of local vector: 9729524915
+Average of local vector with reserve: 6412305345
+Average of local vector with iterator: 11387550440
+Average of Globally declared static vector: 5075559048
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ g++ -o0 02-performance.cpp 
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ ./a.out
+Average of local array: 653173362
+Average of pre-allocated array: 478117576
+Average of local vector: 9654298717
+Average of local vector with reserve: 6533074863
+Average of local vector with iterator: 11631852393
+Average of Globally declared static vector: 5272604293
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ g++ -o1 02-performance.cpp 
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ ./a.out
+Average of local array: 658216397
+Average of pre-allocated array: 478513354
+Average of local vector: 9798029197
+Average of local vector with reserve: 6457108397
+Average of local vector with iterator: 11401424194
+Average of Globally declared static vector: 5047668531
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ g++ -o2 02-performance.cpp 
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ ./a.out
+Average of local array: 653869690
+Average of pre-allocated array: 460944003
+Average of local vector: 9756379319
+Average of local vector with reserve: 6713783440
+Average of local vector with iterator: 11638362399
+Average of Globally declared static vector: 5137470575
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ g++ -o3 02-performance.cpp 
+labuser@sl2-4:~/Desktop/lab1-probs/prob$ ./a.out
+Average of local array: 651855029
+Average of pre-allocated array: 478374605
+Average of local vector: 9653039663
+Average of local vector with reserve: 6406055573
+Average of local vector with iterator: 11309657386
+Average of Globally declared static vector: 5044531924
+
